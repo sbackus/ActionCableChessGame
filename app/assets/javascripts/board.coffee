@@ -26,4 +26,5 @@ $ ->
       else
         App.game.perform("make_move", move)
 
+
   App.board = ChessBoard("chessboard", cfg)
